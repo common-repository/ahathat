@@ -1,0 +1,370 @@
+/* start of aha_key.php css  */
+
+.book_thumb {
+  height: 148px;
+  margin-bottom: 18px;
+  margin-right: 18px;
+  padding: 0;
+  width: 97px;
+}
+
+.site-content-contain {
+  float: left;
+  position: unset;
+  width: 100%;
+  z-index: 1;
+} 
+
+.plg_well {
+    border: 2px solid;
+}
+.ahamessagearea .plg_well{font-family: "PT Sans" !important;font-size: 13px !important; line-height: 1.4em !important;}
+.ahamessagearea .plg_well h4{font-family: 'PT Sans' !important;}
+
+.plg_well .social-icon{
+	width:49%;
+}
+
+.plg_well .for_btn{
+	width:51%;
+}
+
+.plg_well .main_head{
+font-size: 22px;
+margin: 0 0 10px;
+font-family: 'Merriweather Sans' !important;
+
+
+}
+.plg_well .main_head a{
+text-align: center;
+ text-decoration: none !important;	
+display: block;
+line-height: 1.0em !important;
+font-weight: bold;
+}
+
+.ahamessagearea .plg_well a, .ahamessagearea .plg_well a:focus {
+    border: 0;
+}
+
+
+
+  .v-center {
+    height: 100vh;
+    width: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+  }
+  
+  .v-center > div {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: -10%;
+  }
+
+  .btn-small {
+    padding: .75em 1em;
+    font-size: 0.8em;
+  }
+  
+  .modas-box {
+    background: #ffffff none repeat scroll 0 0 padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-top: 0;
+    position: fixed;
+    width: 50%;
+    z-index: 1000;
+  }
+  @media (min-width: 32em) {
+  
+  .modas-box { width: 70%; }
+  }
+  
+  .modas-box header,
+  .modas-box .modas-header {
+    padding: 1.25em 1.5em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modas-box header h3,
+  .modas-box header h4,
+  .modas-box .modas-header h3,
+  .modas-box .modas-header h4 { margin: 0; }
+  
+  .modas-box .modas-body { padding: 2em 1.5em; }
+  
+  .modas-box footer,
+  .modas-box .modas-footer {
+    padding: 1em;
+    border-top: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.02);
+    text-align: right;
+  }
+  
+  .modas-overlay {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) !important;
+    position:fixed;
+  }
+  
+  a.close {
+    line-height: 1;
+    font-size: 1.5em;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    text-decoration: none;
+    color: #bbb;
+  }
+  
+  a.close:hover {
+    color: #222;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    transition: color 1s ease;
+  }
+  .span123 > #form1 {
+      margin: -22px 0 55px 440px;
+      position: absolute;
+  }
+  #popup1 {
+/* display: block !important;	 */
+    }
+
+/* end of aha_key.php css  */
+
+/* start of export-csv.php css  */
+
+
+
+
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+
+.alert.info {background-color: #2196F3;}
+
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+
+.book_result {
+  clear: left;
+}
+
+
+
+/* end of export-csv.php css  */
+
+
+/* start of setting.php css  */
+
+
+
+
+.book_con p {
+    clear: both;
+    display: table;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+
+.search_form ul{
+	margin-left: 15px;
+}
+
+
+
+
+
+.book_thumb > img {
+    width: 100px;
+}
+
+.btn-small {
+  padding: .75em 1em;
+  font-size: 0.8em;
+}
+
+.modas-box {
+  background: #ffffff none repeat scroll 0 0 padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  display: none;
+  margin-top: 0;
+  position: fixed;
+  width: 50%;
+  z-index: 1000;
+}
+@media (min-width: 32em) {
+
+.modas-box { width: 70%; }
+}
+
+.modas-box header,
+.modas-box .modas-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modas-box header h3,
+.modas-box header h4,
+.modas-box .modas-header h3,
+.modas-box .modas-header h4 { margin: 0; }
+
+.modas-box .modas-body { padding: 2em 1.5em; }
+
+.modas-box footer,
+.modas-box .modas-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modas-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
+  position:fixed;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+.span123 > #form1 {
+    margin: -22px 0 55px 440px;
+    position: absolute;
+}
+
+.plg_well {
+    border: 2px solid;
+}
+
+.ahamessagearea .plg_well{font-family: "PT Sans";font-size: 13px;line-height: 1.4em;}
+
+.ahamessagearea .plg_well h4{font-family: "PT Sans";}
+
+.plg_well .main_head{
+font-size: 22px;
+margin: 0 0 10px;
+}
+
+.plg_well .main_head a{
+    text-align: center;
+    text-decoration: none !important;	
+    display: block;
+    line-height: 1.0em !important;
+    font-weight: bold;
+}
+
+.ahamessagearea .plg_well a, .ahamessagearea .plg_well a:focus {
+    border: 0;
+}
+/* end of setting.php css  */
+
+.title_spans{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+ .title_span  {
+    background: black none repeat scroll 0 0;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 152px;
+    padding: 5px;
+    position: absolute;
+    width: 254px;
+	display: none;
+	margin-left: 375px;
+    margin-top: -25px;
+} 
+
+.row-name span:hover + .title_span {
+    display: block;
+}
+
+.form-table th {
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 20px 10px 20px 0;
+    text-align: left;
+    vertical-align: top;
+    width: 119px;
+}
+
+/*new css 31/05/2019*/
+.CatyagoryLable{
+      font-size: 24px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.book-image{
+  float:left; 
+  margin:0px 10px 10px 0px; 
+  padding:3px; border:1px 
+  solid #cccccc; 
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}

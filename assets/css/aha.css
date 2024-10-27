@@ -1,0 +1,286 @@
+.plg_well,
+.aha-content,
+.aha-btn,
+.plg_btn {
+  font-family: 'PT Sans' !important;
+}
+
+.aha-title-size {
+  font-size: 22px;
+  line-height: 25px!important;
+  font-family: 'Merriweather Sans' !important;
+}
+
+.ahamessagearea a {
+  text-decoration: none!important;
+  box-shadow: none!important;
+}
+
+.aha-row a:hover,
+.aha-row a:active {
+  color: white!important;
+  box-shadow: none!important;
+  text-decoration: none!important;
+}
+
+.aha-header a:hover,
+.aha-header a:active {
+  text-decoration: none!important;
+  box-shadow: none!important;
+}
+
+
+/*Configuration Page CSS*/
+
+.configuration-div {
+  border-radius: 5px;
+  background-color: white;
+  padding: 30px;
+  height: auto;
+  float: left;
+  width: auto;
+}
+
+.ahacard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  /*background: gray;*/
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.ahacard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.ahacontainer {
+  padding: 20px;
+}
+
+.aha-text-center {
+  text-align: center;
+}
+
+.aha-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.aha-col-6 {
+  width: 50%;
+}
+
+.aha-col-3 {
+  width: 25%;
+}
+
+.aha-col-4 {
+  width: 33.33%;
+}
+
+.aha-col-8 {
+  width: 66.66%;
+}
+
+.aha-btn {
+  display: inline-block;
+  background-color: #3A87AD;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 8px;
+  border-radius: 5px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  vertical-align: ;
+}
+
+.aha-text-color {
+  color: black;
+}
+
+.aha-content {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0px;
+  padding: 5px;
+  width: 100%;
+}
+
+.plg_btn {
+  background: #96c841 none repeat scroll 0 0;
+  font-size: 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-shadow: none;
+  vertical-align: bottom;
+}
+
+.aha-icon {
+  color: white;
+  padding: 6px 12px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.aha-linkedin {
+  background-image: linear-gradient(to bottom, #08c, #04c);
+}
+
+.aha-facebook {
+  background-image: linear-gradient(to bottom, #08c, #04c);
+}
+
+.aha-twitter {
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.plg_well {
+  border: 2px solid;
+}
+
+.aha-poweredby{
+  text-align: right;
+    padding: 1%;
+    color: black;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /*Styles */
+  .aha-col-8,
+  .aha-col-4 {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .ahacard {
+    width: auto!important;
+    height: auto!important;
+  }
+  .aha-poweredby{
+    text-align: center;
+  }
+}
+
+.aha-info-line {
+  margin-top: 12px;
+}
+
+.modas-box {
+  background: #ffffff none repeat scroll 0 0 padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  display: none;
+  margin-top: 0;
+  position: fixed;
+  width: 50%;
+  z-index: 1000;
+}
+
+@media (min-width: 32em) {
+  .modas-box {
+    width: 70%;
+  }
+}
+
+.modas-box header,
+.modas-box .modas-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modas-box header h3,
+.modas-box header h4,
+.modas-box .modas-header h3,
+.modas-box .modas-header h4 {
+  margin: 0;
+}
+
+.modas-box .modas-body {
+  padding: 2em 1.5em;
+}
+
+.modas-box footer,
+.modas-box .modas-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modas-box {
+  background: #ffffff none repeat scroll 0 0 padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  display: none;
+  margin-top: 0;
+  position: fixed;
+  width: 50%;
+  z-index: 1000;
+}
+
+@media (min-width: 32em) {
+  .modas-box {
+    width: 70%;
+  }
+}
+
+.modas-box header,
+.modas-box .modas-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modas-box header h3,
+.modas-box header h4,
+.modas-box .modas-header h3,
+.modas-box .modas-header h4 {
+  margin: 0;
+}
+
+.modas-box .modas-body {
+  padding: 2em 1.5em;
+}
+
+.modas-box footer,
+.modas-box .modas-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+
+.alert.info {background-color: #2196F3;}
+
+.alert.warning {background-color: #ff9800;}
